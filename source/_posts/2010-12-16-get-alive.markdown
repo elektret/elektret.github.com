@@ -1,0 +1,11 @@
+---
+layout: post
+title: "Get Alive"
+date: 2010-12-16 01:06
+comments: true
+categories: 
+---
+<p>A web log! An online diary!
+A way to connect with millions and millions of
+Internet users and share my life!
+<a href='http://web.archive.org/web/20030530043352/www.gamespy.com/comics/dorktower/images/comics/dorktower219.jpg'>Dork Tower</a>.</p>

@@ -1,0 +1,32 @@
+---
+layout: post
+title: "28C3"
+date: 2012-01-01 10:29
+comments: true
+categories: 
+---
+<p>Diese Stunden geht der
+<a href='http://events.ccc.de/congress/2011'>28C3</a>-Kongress in Berlin zu Ende.
+Ich habe mir via Video-Stream einige Vorträge angesehen, werde dazu hier ein paar Worte
+schreiben und die Links setzen. Hauptsächlich sind das Vorträge von denen ich
+mir mehr Unterhaltung als abgefahrene, üble Hackz versprochen habe.
+</p>
+
+<ul>
+  <li><a href='ftp://ftp.ccc.de/congress/2011/mp4-h264-HQ/28c3-4901-de-der_staatstrojaner_aus_sicht_der_technik_h264.mp4'>Der Staatstrojaner</a>: Der Vortrag gibt einen Überblick der technischen Details
+    des Staatstrojaners <em>0zapftis</em> und der damit verbundenen Reaktionen in der
+    Öffentlichkeit.</li>
+  <li><a href='ftp://ftp.ccc.de/congress/2011/mp4-h264-HQ/28c3-4676-en-apple_vs_google_client_platforms_h264.mp4'>Apple vs. Google Client Platforms</a>: Ein Vortrag, der irgendwo versucht die
+    Sorgfalt im Bezug auf Datenschutz und Integrität von Produkten namenhafter
+    IT-Hersteller zu betrachten. Zur Illustration werden auch einige konkrete
+    Probleme/Bugs angesprochen.</li>
+  <li><a href='ftp://ftp.ccc.de/congress/2011/mp4-h264-HQ/28c3-4680-en-effective_dos_attacks_against_web_application_platforms_h264.mp4'>Effective Denial of Service attacks against web application platforms</a>:
+    Ein schöner Vortrag über <em>hash tables</em>, <em>hash functions</em> und damit verbundene
+    Kollisionen. Für mich überhaupt der Einstig in diese Thematik. Problemfälle im
+    Bezug auf den Titel sind hier zur Zeit insbesondere <em>PHP</em>, <em>ASP</em>, <em>Java</em> und manche
+    die noch gefunden werden wollen.</li>
+  <li><a href='ftp://ftp.ccc.de/congress/2011/mp4-h264-HQ/28c3-4799-de-can_trains_be_hacked_h264.mp4'>Can trains be hacked?</a>:
+    Ein Vortrag mit hohem Unterhaltungswert—nicht nur
+    wegen einer, an ein Stellwerk angeschlossenen, Modelleisenbahn. Es geht
+    allgemein um die Technik von Eisenbahnsicherungsanlagen.</li>
+</ul>
