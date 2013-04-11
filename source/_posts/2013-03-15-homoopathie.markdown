@@ -34,8 +34,8 @@ ich die [Wikipedia][wikipedia] zitieren:
 >die über den Placebo-Effekt hinausgeht.
 >Die Homöopathie wird von Teilen der wissenschaftlichen Medizin auch als wirkungslose,
 >in einigen Fällen sogar gefährliche Behandlung abgelehnt.
-
-Wikipedia
+>
+>Wikipedia
 
 [holger]: https://twitter.com/holgi
 [wikipedia]: http://de.wikipedia.org

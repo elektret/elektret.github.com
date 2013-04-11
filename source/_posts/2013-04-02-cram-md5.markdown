@@ -23,7 +23,7 @@ eine Prüfsumme gebildet und über das Netz gesendet:
 
     MD5(('secret' XOR omask), MD5(('secret' XOR imask), challenge))
 
-Die Implementation in _Ruby_ sieht dann etwa so aus:
+Die Implementierung in _Ruby_ sieht dann etwa so aus:
 
     #!/usr/bin/env ruby
     require 'base64'
