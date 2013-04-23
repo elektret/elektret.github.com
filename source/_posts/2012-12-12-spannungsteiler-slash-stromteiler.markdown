@@ -10,5 +10,5 @@ Schon etwas älter, aber noch nicht _reblogged_:
 * [Spannungsteiler][spannungsteiler]
 * [Stromteiler][stromteiler]
 
-[spannungsteiler]: http://mxreg.github.com/zahlenpresse/docs/spannungsteiler.pdf
-[stromteiler]: http://mxreg.github.com/zahlenpresse/docs/stromteiler.pdf
+[spannungsteiler]: /docs/spannungsteiler.pdf
+[stromteiler]: /docs/stromteiler.pdf
