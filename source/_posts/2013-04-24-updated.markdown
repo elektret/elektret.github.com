@@ -11,7 +11,7 @@ habe ich hier die Links geupdated. Neu dazu gekommen sind:
 
 * [Mathematische Parallelität: Zerfallsgesetz, Kondensatorentladung][zerfall]:
   Sind zwei Beispiele für die einfachste, denkbare Differentialgleichung.
-  „Das was man hat ist proportional zur Veränderung.“
+  „Das was man hat, ist proportional zur Veränderung.“
 * [Koaxialleiter: E-Feldstärke, H-Feldstärke][koaxialleiter]: Ist eine kurze Abhandlung eines Koaxialleiters.
 
 [zerfall]: /docs/zerfall_entladung.pdf
