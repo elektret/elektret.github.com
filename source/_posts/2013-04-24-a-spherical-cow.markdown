@@ -23,6 +23,6 @@ Woher die [Metapher in der Überschrift][wikipedia] kommt, weiß die Wikipedia:
 >The scholars then returned to the university, notebooks crammed with data,
 >where the task of writing the report was left to the team leader.
 >Shortly thereafter the physicist returned to the farm, saying to the farmer
->"I have the solution weiß Wikipedia:
+>"I have the solution, but it only works in the case of spherical cows in a vacuum."
 
 [wikipedia]: http://en.wikipedia.org/wiki/Spherical_cow
