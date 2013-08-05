@@ -11,7 +11,7 @@ Signalpegel, an den Ein- und Ausgängen der einzelnen Bauelemente, in einem
 Diagramm darstellen.</p>
 
 <p>Für die Umsetzung habe ich mir überlegt ein kleines
-<a href='https://github.com/mxreg/petridish/tree/master/hl-evel'>Computerprogramm</a>
+<a href='https://github.com/elektret/petridish/tree/master/hl-evel'>Computerprogramm</a>
 zu schreiben, das eine Textdatei ließt und die graphische Darstellung in Form
 einer png-Datei ausgibt.</p>
 

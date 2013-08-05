@@ -10,7 +10,7 @@ mit <em>vorbis2alsa</em> einen minimalistischen Audioplayer geschreiben. Das Pro
 kann ein <em>ogg vorbis file</em> öffnen und den Stream an das <em>alsa default interface</em>
 weitergeben:</p>
 
-<pre>https://github.com/mxreg/petridish/tree/master/vorbis2alsa</pre>
+<pre>https://github.com/elektret/petridish/tree/master/vorbis2alsa</pre>
 
 <p>Es wird in Zukunft auch keine grundlegenden Änderungen geben. Für mich waren
 nur die Grundlagen von <em>libvorbis</em> und <em>asoundlib</em> wichtig, sowie deren

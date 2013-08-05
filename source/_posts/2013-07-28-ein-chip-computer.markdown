@@ -16,4 +16,4 @@ das Ganze auf [Github][github]. Grundlagen sind:
 * HD44780
 * Misc (+Thermometer, +Radio, etc)
 
-[github]: https://github.com/mxreg/petridish/tree/master/sandbox
+[github]: https://github.com/elektret/petridish/tree/master/sandbox

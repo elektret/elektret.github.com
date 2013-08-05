@@ -22,7 +22,7 @@ dass ich erstmal nicht dazu kommen werde hier viel zu schreiben.
 Und wenn ich wieder die Zeit habe, habe ich vielleicht nicht mehr den Verstand dazu.
 * Da dieses Blog nicht mehr auf meiner eigenen Serverinfrastruktur läuft,
 ist es einfach den Betrieb auch nach meinem Ableben sicher zu stellen.
-* Unfertiges gibt es auf meinem GitHub-Profil: [https://github.com/mxreg][github].
+* Unfertiges gibt es auf meinem GitHub-Profil: [https://github.com/elektret][github].
 * Ähnlich wie [Matthew Sobol][sobol] habe ich die einmalige Gelegenheit.
 * Da es als ethisch empfunden wird einen kranken Menschen am Leben zu halten,
 werde ich wohl weiterleben.
@@ -33,6 +33,6 @@ Die haben auch ein schönes [PDF][pdf].
 [Medulloblastom]: http://de.wikipedia.org/wiki/Medulloblastom
 [ommaya]: http://de.wikipedia.org/wiki/Ommaya-Reservoir
 [sobol]: http://en.wikipedia.org/wiki/Daemon_(technothriller_series)
-[github]: https://github.com/mxreg
+[github]: https://github.com/elektret
 [kinderkrebsinfo]: http://www.kinderkrebsinfo.de/
 [pdf]: http://www.kinderkrebsinfo.de/sites/kinderkrebsinfo/content/e9031/e10566/e51415/e52594/Medulloblastom022011_ger.pdf
