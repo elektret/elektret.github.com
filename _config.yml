@@ -3,9 +3,9 @@
 # ----------------------- #
 
 url: http://mxreg.github.io
-title: Zahlenpresse
-subtitle: ... von Zahlen
-author: mx
+title: elektret.github.io
+subtitle:
+author: Manuel
 simple_search: false
 description:
 
@@ -19,7 +19,7 @@ date_format: "ordinal"
 subscribe_rss: /atom.xml
 subscribe_email:
 # RSS feeds can list your email address if you like
-email: input@zahlenpresse.de
+# email: input@zahlenpresse.de
 
 # ----------------------- #
 #    Jekyll & Plugins     #
