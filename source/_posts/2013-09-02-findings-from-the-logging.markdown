@@ -9,7 +9,7 @@ After a few months having [Fail2ban][fail2ban] at work
 I wanted to know which networks seeking for exploits on my servers most frequently.
 So I wrote a [program][program] to analyze the [WHOIS][whois]
 requests—generated in case of any malicious activity—over
-the last four months. Here are the top 25 candidates out of 633:
+the last four months. Here are the top 25 out of 633 candidates:
     $ ruby fail2ban.rb logfile | sort -rn | head -25
 
     231	   CN	ALIBABA-CN-NET
