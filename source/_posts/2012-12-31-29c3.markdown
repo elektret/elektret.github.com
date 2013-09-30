@@ -16,12 +16,12 @@ Dann gibt es noch eine neue Sache. Ich kann die
 Server-Infrastruktur hinter diesem Blog nicht mehr finanzieren
 und archiviere erstmal alles unter dieser URL:
 
-    http://mxreg.github.com/
+    http://elektret.github.io/
 
 [So Long, and Thanks for All the Fish][wikipedia]
 
 [facthacks]: http://mirror.fem-net.de/CCC/29C3/mp4-h264-HQ/29c3-5275-en-facthacks_h264.mp4
 [hashflooding]: http://mirror.fem-net.de/CCC/29C3/mp4-h264-HQ/29c3-5152-en-hashflooding_dos_reloaded_h264.mp4
 [safecast]: http://mirror.fem-net.de/CCC/29C3/mp4-h264-HQ/29c3-5140-en-safecast_h264.mp4
-[github]: http://mxreg.github.com/zahlenpresse
+[github]: https://github.com/elektret/elektret.github.com
 [wikipedia]: http://en.wikipedia.org/wiki/So_Long,_and_Thanks_for_All_the_Fish

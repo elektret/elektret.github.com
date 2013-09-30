@@ -18,8 +18,7 @@ Das vielversprechendste Projekt
 <a href='http://www.mathjax.org'>MathJax</a>
 versteht verschiedene Syntaxen und kann diese auch ineinander umwandeln:</p>
 
-<p><a href='https://gist.github.com/4257737'>MathJax: Converts TeX to MathML</a></p>
+<p><a href='https://gist.github.com/elektret/6407629'>MathJax: Converts TeX to MathML</a></p>
 
 <p>Damit können Formeln erstmal in TeX geschrieben werden—bzw. XML-Dokumente
-mit MathML erweitert werden—und später im Web dargestellt werden.
-<a href='http://mxreg.github.com/zahlenpresse//site/partielle_integration.html'>Hier ist ein Beispiel.</a></p>
+mit MathML erweitert werden—und später im Web dargestellt werden.</p>

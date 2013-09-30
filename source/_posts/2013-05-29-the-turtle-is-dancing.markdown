@@ -25,4 +25,4 @@ Geht aber auch viel schneller mit diesem Befehl:
 [showip]: http://opensource.teqneers.com/showip.html
 [fedora]: http://fedoraproject.org/wiki/IPv6Guide
 [forum]: http://lwn.net/Articles/425985/
-[github]: https://github.com/mxreg/petridish/blob/master/misc/gai.c
+[github]: https://github.com/elektret/petridish/blob/master/misc/gai.c
