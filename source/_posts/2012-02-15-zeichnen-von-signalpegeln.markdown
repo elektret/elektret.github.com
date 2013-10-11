@@ -5,41 +5,41 @@ date: 2012-02-15 15:36
 comments: true
 categories: 
 ---
-<p>In den letzten Tagen musste ich für eine digitale Schaltung—also für eine
+{% img right /images/blog/schaltung2.png %}
+
+In den letzten Tagen musste ich für eine digitale Schaltung—also für eine
 regenerationsfähige Schaltung in der nur diskrete Spannungen genutzt werden—die
 Signalpegel, an den Ein- und Ausgängen der einzelnen Bauelemente, in einem
-Diagramm darstellen.</p>
+Diagramm darstellen.
 
-<p>Für die Umsetzung habe ich mir überlegt ein kleines
-<a href='https://github.com/elektret/petridish/tree/master/hl-evel'>Computerprogramm</a>
+Für die Umsetzung habe ich mir überlegt ein kleines [Computerprogramm][hlevel]
 zu schreiben, das eine Textdatei ließt und die graphische Darstellung in Form
-einer png-Datei ausgibt.</p>
+einer _png_-Datei ausgibt.
 
-<p>Hier ist ein Beispiel zu der folgenden Datei:</p>
+Hier ist ein [Beispiel][beispiel] zu der folgenden Datei:
 
-<pre>
-# Example ###############
-HLHLHLHLHLHLHLHLHLHLHLHLH : Timebase
-HHHHHHLLHHHHHHHHHHHHHHHHH : S
-HHHHHHHHHHHHHHHHHHHLLHHHH : R
-LLLLLLHHHHHHHHHHHHHLLLLLL : Q
-LLLLLLHLHLHLHLHLHLHLLLLLL : Q AND Timebase
-#########################
-</pre>
+    # Example ###############
+    HLHLHLHLHLHLHLHLHLHLHLHLH : Timebase
+    HHHHHHLLHHHHHHHHHHHHHHHHH : S
+    HHHHHHHHHHHHHHHHHHHLLHHHH : R
+    LLLLLLHHHHHHHHHHHHHLLLLLL : Q
+    LLLLLLHLHLHLHLHLHLHLLLLLL : Q AND Timebase
+    #########################
 
-<p>Vielleicht ist es auch möglich mit diesem Befehl die Funktionalität des
-ungetesteten und unspezifizierten Programm nachzuvollziehen:</p>
+Vielleicht ist es auch möglich mit diesem Befehl die Funktionalität des
+ungetesteten und unspezifizierten Programm nachzuvollziehen:
 
-<pre>hl-evel example.hl example.png</pre>
+    hl-evel example.hl example.png
 
-<p>Dabei ist example.hl die Eingabedatei und example.png die Ausgabedatei. Tests
+Dabei ist example.hl die Eingabedatei und example.png die Ausgabedatei. Tests
 als Ersatz für die Spezifikation schreibe ich noch, wenn ich das mal gelernt
 habe. Dann bleibt noch zu erwähnen, dass neben der Ruby Standard Library 1.9.3
-auch chunky_png benötigt wird.</p>
+auch chunky_png benötigt wird.
 
-<p>Beispiel:</p>
+Etwa:
 
-<pre>
-export GEM_HOME=~/gems/1.9.3/
-gem install chunky_png
-</pre>
+    export GEM_HOME=~/gems/1.9.3/
+    gem install chunky_png
+
+[hlevel]: https://github.com/elektret/petridish/tree/master/hl-evel
+[beispiel]: /images/blog/schaltung.png
