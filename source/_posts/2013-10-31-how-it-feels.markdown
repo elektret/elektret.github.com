@@ -9,8 +9,9 @@ After tumor extirpation they told me I need extra treatment, I need a chemo
 therapy in addition to a radiation therapy. They implanted a
 [Rickham-Reservoir][rickham] into my brain. They needed three [surgical
 interventions][surgical]. Now I'm almost blind on my right eye and they say
-it's not even worse then a pneumonia. You can't imagine how it feels.
-[Discharge letter][discharge].
+it's not even worse then a pneumonia, but if I don't follow their
+recommendations I will die anyway. You can't imagine how it feels. [Discharge
+letter][discharge].
 
 [surgical]: /mirror/operationsbericht.pdf
 [rickham]: http://en.wikipedia.org/wiki/Ommaya_reservoir
