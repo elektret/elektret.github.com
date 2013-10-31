@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Vacant"
+title: "VΛCΛNT"
 date: 2013-10-31 20:55
 comments: true
 categories: 
