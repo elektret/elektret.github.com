@@ -13,7 +13,7 @@ hints how to use the new version:
     $ wget sslscan-1.8.2
     $ tar -xvf sslscan-1.8.2.tgz
     $ cd sslscan-1.8.2
-    $ wget -O sslscan-ipv6.patch http://git.io/i7YXTg
+    $ wget -O sslscan-ipv6.patch http://git.io/sFU24g
     $ patch -p2 < sslscan-ipv6.patch
 
 You want to patch the _Makefile_:
@@ -28,5 +28,8 @@ How to scan IPv6:
     $ ./sslscan -6 --no-failed google.com
     $ ./sslscan --starttls --verbose --no-failed your.mail.server:587
 
+_2013-11-10 19:15:30_ -- One night of sleep revealed what was missing. The new
+[patch][patch] has much better backward compatibility.
+
 [sslscan]: http://sourceforge.net/projects/sslscan/
-[patch]: http://git.io/i7YXTg
+[patch]: http://git.io/sFU24g
