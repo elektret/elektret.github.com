@@ -1,0 +1,13 @@
+---
+layout: post
+title: "Eh?"
+date: 2013-11-19 20:57
+comments: true
+categories: 
+---
+Recently I noticed the blood type on my donor-card and the last
+[discharge letter][letter] [differ][differ].
+I guess the letter is wrong. Pretty smart.
+
+[differ]: /images/eh.jpg
+[letter]: /mirror/arztbrief_chemo.pdf
