@@ -44,4 +44,5 @@ durch die Überhangmandate an Partei B. Die restlichen 5 Sitze werden unter Part
 
 Vielen Dank an nad.
 
+**Update:** [www.wahlrecht.de](http://www.wahlrecht.de/).
 [netzpolitik]: https://netzpolitik.org/2013/bundestagswahl-erklaert-ueberhangmandate-ausgleichsmandate

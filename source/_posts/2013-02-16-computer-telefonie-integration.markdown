@@ -11,6 +11,6 @@ categories:
 <a href='http://de.wikipedia.org/wiki/Java_Telephony_API'>JTAPI</a> <a href='http://de.wikipedia.org/wiki/Computer_Telephony_Integration'>CSTA</a> <a href='http://de.wikipedia.org/wiki/Real-Time_Transport_Protocol'>RTP</a> <a href='http://de.wikipedia.org/wiki/Session_Initiation_Protocol'>SIP</a> <a href='http://de.wikipedia.org/wiki/IP-Telefonie'>VOIP</a> <a href='http://de.wikipedia.org/wiki/Ping_(Daten%C3%BCbertragung)'>PING</a>
 </pre>
 
-<p>Wer diese Akronyme mag, der mag bestimmt auch diesen Podcast
+<p>Wer diese Akronyme mag, der mag bestimmt auch diesen Podcast:
 <a href='http://cre.fm/cre109'>CRE109 Computer-Telefonie-Integration</a>.
 </p>
