@@ -1,0 +1,8 @@
+---
+layout: post
+title: "Cat"
+date: 2014-08-13 19:15
+comments: true
+categories: 
+---
+{% img /images/blog/cat.jpg %}
