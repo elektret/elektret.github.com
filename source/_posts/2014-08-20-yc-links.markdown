@@ -5,7 +5,7 @@ date: 2014-08-20 20:32
 comments: true
 categories: 
 ---
-The last _1000_ links (order by domain):
+The last _1000_ link (sorted by domain):
 
     53 github.com
     37 techcrunch.com
