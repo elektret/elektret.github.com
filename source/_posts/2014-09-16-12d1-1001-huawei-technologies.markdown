@@ -7,8 +7,8 @@ categories:
 ---
     $ mkdir medion; cd medion
     $ gem install serialport
-    $ curl -o medion.rb http://pastebin.com/raw.php?i=PaZrRiST
-    $ curl -o pdu.rb http://pastebin.com/raw.php?i=48ryhsjN
+    $ curl -o medion.rb http://pastebin.com/raw.php?i=nm4nzmnf
+    $ curl -o pdu.rb http://pastebin.com/raw.php?i=qVFUak4D
 
     Usage: medion.rb [options]
         -v, --[no-]verbose               Run verbosely
