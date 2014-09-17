@@ -7,14 +7,16 @@ categories:
 ---
     $ mkdir medion; cd medion
     $ gem install serialport
-    $ curl -o medion.rb http://pastebin.com/raw.php?i=1ZD0KnAv
-    $ curl -o pdu.rb http://pastebin.com/raw.php?i=p9Nmh7Es
+    $ curl -o medion.rb http://pastebin.com/raw.php?i=PaZrRiST
+    $ curl -o pdu.rb http://pastebin.com/raw.php?i=48ryhsjN
 
     Usage: medion.rb [options]
         -v, --[no-]verbose               Run verbosely
         -b, --[no-]balance               Print balance
-        -d, --device STRING              Specify device file
-        -p, --pin STRING                 PIN Number
+        -d, --device STRING              Device file
+        -p, --pin STRING                 Personal identification number
+        -a, --ascii STRING               Convert ASCII
+        -u, --pdu STRING                 Convert PDU
 
     $ ruby medion.rb -d /dev/ttyUSB2 
         /dev/ttyUSB2 responding ...
@@ -22,3 +24,9 @@ categories:
         Manufacturer: huawei
         Model: E160
         Revision: 11.608.06.00.52
+
+[Huawei E1550 3G modem][archlinux],
+[MEDIONmobile web stick S4001][helber]
+
+[helber]: http://www.helber.it/MEDIONmobile_web_stick_unter_U.websticks4001ubuntu.0.html
+[archlinux]: https://wiki.archlinux.org/index.php/Huawei_E1550_3G_modem
