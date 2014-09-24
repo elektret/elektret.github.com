@@ -30,6 +30,7 @@ body {
   line-height: 1.5em;
   color: $text-color;
   @extend .serif;
+  font-family: $sans;
 }
 h1 {
   font-size: $header-title-font-size;
