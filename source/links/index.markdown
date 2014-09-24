@@ -19,7 +19,6 @@ footer: true
 ### Programming
 * [Learn You a Haskell for Great Good!][lyah]
 * [Ruby Hacking Guide][rhg]
-* [PDU Encoder/Decoder][pdu]
 
 [tofu]: http://fotografiona.wordpress.com/2012/09/27/tofu-zum-angeben/
 [ga]: http://www.mathematik.uni-dortmund.de/lsi/schweizer/PartielleDGL/guteAntworten.html
