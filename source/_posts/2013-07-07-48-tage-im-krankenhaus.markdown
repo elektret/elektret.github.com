@@ -3,7 +3,8 @@ layout: post
 title: "48 Tage im Krankenhaus"
 date: 2013-07-07 22:46
 comments: true
-categories: 
+categories:
+  - medulloblastoma
 ---
 {% img left /images/blog/56teile.jpg %}
 

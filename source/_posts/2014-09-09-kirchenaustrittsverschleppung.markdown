@@ -3,7 +3,8 @@ layout: post
 title: "Kirchenaustrittsverschleppung"
 date: 2014-09-09 17:32
 comments: true
-categories: 
+categories:
+  - meta
 ---
 Sehr geehrte Damen und Herrn,
 

@@ -3,6 +3,7 @@ layout: post
 title: "Catcontent"
 date: 2014-08-13 19:15
 comments: true
-categories: 
+categories:
+  - cats
 ---
 {% img /images/blog/cat.jpg %}

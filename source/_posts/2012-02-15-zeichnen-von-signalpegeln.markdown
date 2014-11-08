@@ -3,7 +3,8 @@ layout: post
 title: "Zeichnen von Signalpegeln"
 date: 2012-02-15 15:36
 comments: true
-categories: 
+categories:
+  - physics
 ---
 {% img right /images/blog/schaltung2.png %}
 

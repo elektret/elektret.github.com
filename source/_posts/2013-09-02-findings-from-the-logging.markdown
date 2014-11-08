@@ -3,7 +3,8 @@ layout: post
 title: "Findings from the logging"
 date: 2013-09-02 13:33
 comments: true
-categories: 
+categories:
+  - programming
 ---
 After a few months having [Fail2ban][fail2ban] at work
 I wanted to know which networks seeking for exploits on my servers most frequently.

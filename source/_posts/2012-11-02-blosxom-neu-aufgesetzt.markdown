@@ -3,7 +3,8 @@ layout: post
 title: "Blosxom neu aufgesetzt"
 date: 2012-11-02 10:52
 comments: true
-categories: 
+categories:
+  - programming
 ---
 <p>Ich habe das Blog mal wieder mit der alten
 <a href='http://www.blosxom.com/'>Software</a> neu aufgesetzt.

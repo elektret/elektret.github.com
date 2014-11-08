@@ -3,7 +3,8 @@ layout: post
 title: "Patch: SSLScan IPv6 support"
 date: 2013-11-09 20:52
 comments: true
-categories: 
+categories:
+  - ipv6
 ---
 [SSLScan][sslscan] queries SSL services, such as HTTPS, in order to
 determine the ciphers that are supported. I wrote a [patch][patch] to give

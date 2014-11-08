@@ -3,7 +3,8 @@ layout: post
 title: "False Assumptions"
 date: 2014-05-15 20:00
 comments: true
-categories: 
+categories:
+  - mathematics
 ---
 * [THE MOST COMMON ERRORS IN UNDERGRADUATE MATHEMATICS][schectex]
 

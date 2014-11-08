@@ -3,7 +3,9 @@ layout: post
 title: "Tage im Monat"
 date: 2012-11-12 15:00
 comments: true
-categories: 
+categories:
+  - programming
+  - ruby
 ---
 <p>Ich brauchte mal eine kurze Formal um die Anzahl der Tage in
 einem Monat zu berrechnen.

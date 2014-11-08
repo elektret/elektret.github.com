@@ -3,7 +3,9 @@ layout: post
 title: "Useless?"
 date: 2013-09-04 06:29
 comments: true
-categories: 
+categories:
+  - ruby
+  - programming
 ---
     #!/usr/bin/env ruby -w
     function, list, f = {}, [], nil

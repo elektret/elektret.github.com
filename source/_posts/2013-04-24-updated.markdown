@@ -3,7 +3,10 @@ layout: post
 title: "Updated"
 date: 2013-04-24 02:18
 comments: true
-categories: 
+categories:
+  - pdf
+  - mathematics
+  - physics
 ---
 Inspiriert von einer [englischsprachigen Seite][overapi] auf der
 verschiedene _cheat sheets_ gesammelt werden,

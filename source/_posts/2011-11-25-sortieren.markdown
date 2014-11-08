@@ -3,7 +3,9 @@ layout: post
 title: "Sortieren"
 date: 2011-11-25 22:54
 comments: true
-categories: 
+categories:
+  - unix
+  - sort
 ---
 <p>Sortieren ist toll und der Unix-Befehl <em>sort</em> ist auch toll.
 Hier sind mal ein paar Beispiele für die Verwendung von <em>sort</em>.</p>

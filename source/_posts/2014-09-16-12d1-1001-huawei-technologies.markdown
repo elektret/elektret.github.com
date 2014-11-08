@@ -3,7 +3,9 @@ layout: post
 title: "12d1:1001 Huawei Technologies"
 date: 2014-09-16 11:47
 comments: true
-categories: 
+categories:
+  - programming
+  - umts
 ---
     $ mkdir medion; cd medion
     $ gem install serialport

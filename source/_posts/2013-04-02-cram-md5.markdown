@@ -3,7 +3,10 @@ layout: post
 title: "CRAM-MD5"
 date: 2013-04-02 13:20
 comments: true
-categories: 
+categories:
+  - ruby
+  - programming
+  - md5
 ---
 Zum Testen der Konfiguration eines Mailservers via
 <a href='http://de.wikipedia.org/wiki/Mail_Submission_Agent'>Submission</a>,

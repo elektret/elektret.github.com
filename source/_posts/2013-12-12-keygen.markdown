@@ -3,7 +3,10 @@ layout: post
 title: "Keygen"
 date: 2013-12-12 22:05
 comments: true
-categories: 
+categories:
+  - keygen
+  - programming
+  - ruby
 ---
 Maybe you remember the old software distribution models. People had
 obtained a trail version and bought a software key afterwards which

@@ -3,7 +3,9 @@ layout: post
 title: "OsmocomBB"
 date: 2013-10-18 23:37
 comments: true
-categories: 
+categories:
+  - umts
+  - programming
 ---
 {% img right /images/blog/osmocombb.jpg %}
     Received DOWNLOAD ACK from phone, your code is running now!

@@ -3,7 +3,8 @@ layout: post
 title: "Science fiction and Postcyberpunk"
 date: 2014-05-13 23:17
 comments: true
-categories: 
+categories:
+  - books
 ---
 * Arkady and Boris Strugatsky: _Roadside Picnic_, 1971
 * Stanislaw Lem: _Solaris_, 1961

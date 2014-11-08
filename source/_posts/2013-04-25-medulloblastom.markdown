@@ -3,7 +3,8 @@ layout: post
 title: "Medulloblastom"
 date: 2013-04-25 00:16
 comments: true
-categories: 
+categories:
+  - medulloblastoma
 ---
 Bei mir wurde vor ein paar Monaten
 ein [Medulloblastom][medulloblastom]—das ist ein Gehirntumor—gefunden und entfernt.

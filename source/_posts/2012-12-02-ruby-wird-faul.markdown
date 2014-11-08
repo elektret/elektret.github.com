@@ -3,7 +3,8 @@ layout: post
 title: "Ruby wird faul"
 date: 2012-12-02 14:18
 comments: true
-categories: 
+categories:
+  - ruby
 ---
 <p>Und das macht mich wirklich sehr glücklich.
 Kurz vor Mitternacht (Japan Standard Time) wurde gestern die

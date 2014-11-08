@@ -3,7 +3,8 @@ layout: post
 title: "Studienprotokoll HIT 2000"
 date: 2013-07-26 22:26
 comments: true
-categories: 
+categories:
+  - medulloblastoma
 ---
 Hier sind die 317 Seiten des [Studienprotokolls HIT 2000][hit2000].
 Aufgrund der Ergebnisse der HIT 91 Studie wird bei meiner Erkrankung

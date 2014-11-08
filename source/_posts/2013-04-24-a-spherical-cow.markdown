@@ -3,7 +3,9 @@ layout: post
 title: "A spherical cow"
 date: 2013-04-24 01:10
 comments: true
-categories: 
+categories:
+  - physics
+  - mathematics
 ---
 >Ein Volkswirt, ein Physiker und ein Mathematiker fahren durch ein fremdes Land.
 >Da sehen sie eine schwarzgefleckte Kuh auf der Weide stehen.

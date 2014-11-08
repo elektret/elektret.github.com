@@ -3,7 +3,8 @@ layout: post
 title: "Eh?"
 date: 2013-11-19 20:57
 comments: true
-categories: 
+categories:
+  - medulloblastoma
 ---
 Recently I noticed the blood type on my donor-card and the one on the last
 [discharge letter][letter] [differ][differ]. I guess the letter is wrong.

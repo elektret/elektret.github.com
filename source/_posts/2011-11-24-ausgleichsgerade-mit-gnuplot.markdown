@@ -3,7 +3,8 @@ layout: post
 title: "Ausgleichsgerade mit GnuPlot"
 date: 2011-11-24 16:13
 comments: true
-categories: 
+categories:
+  - physics
 ---
 Dies ist eine schnelle Anleitung zur Erstellung einer Ausgleichsgerade mit
 GnuPlot. Dazu sollen hier die Messwerte eines Geiger-Müller-Zählers in Abhängigkeit

@@ -3,7 +3,8 @@ layout: post
 title: "Stil & Bense - Maybe"
 date: 2014-09-11 14:25
 comments: true
-categories: 
+categories:
+  - music
 ---
 <iframe
   width="100%"

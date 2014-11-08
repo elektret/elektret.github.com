@@ -3,7 +3,8 @@ layout: post
 title: "Scuba Boiler Room Berlin"
 date: 2013-11-08 01:51
 comments: true
-categories: 
+categories:
+  - music
 ---
 <iframe width='100%' height='166'
   scrolling='no' frameborder='no'

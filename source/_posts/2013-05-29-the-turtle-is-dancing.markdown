@@ -3,7 +3,8 @@ layout: post
 title: "The Turtle is Dancing"
 date: 2013-05-29 21:56
 comments: true
-categories: 
+categories:
+  - ipv6
 ---
 Heute habe ich [IPv6][wikipedia] auch für meinen Internetanschluss [angemacht][kame].
 Weil ich von meinem Internetprovider noch kein IPv6-Internet bekomme,

@@ -3,7 +3,8 @@ layout: post
 title: "vorbis2alsa"
 date: 2012-03-13 16:34
 comments: true
-categories: 
+categories:
+  - programming
 ---
 <p>Als Vorbereitung auf eines meiner, möglicherweise, nächsten Projekte habe ich
 mit <em>vorbis2alsa</em> einen minimalistischen Audioplayer geschreiben. Das Programm

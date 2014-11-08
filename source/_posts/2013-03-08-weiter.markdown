@@ -3,7 +3,9 @@ layout: post
 title: "Weiter"
 date: 2013-03-08 22:59
 comments: true
-categories: 
+categories:
+  - programming
+  - haskell
 ---
     insertionsort :: (Ord a) => [a] -> [a]
     insertionsort [] = []

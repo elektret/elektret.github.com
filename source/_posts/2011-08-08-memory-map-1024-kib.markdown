@@ -3,7 +3,10 @@ layout: post
 title: "Memory Map: 1024 KiB"
 date: 2011-08-08 23:07
 comments: true
-categories: 
+categories:
+  - pdf
+  - programming
+  - x86
 ---
 Eine Liste mit den wichtigsten Speicheradressen
 des traditionellen x86-Computers:

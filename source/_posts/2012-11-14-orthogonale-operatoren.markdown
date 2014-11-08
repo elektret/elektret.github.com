@@ -3,7 +3,9 @@ layout: post
 title: "Orthogonale Operatoren"
 date: 2012-11-14 19:37
 comments: true
-categories: 
+categories:
+  - physics
+  - mathematics
 ---
 <p>Hier geht es um reelle und endlichdimensionale Skalarprodukträume.
 Ein Beispiel—das sich aber leicht erweitern lässt—gibt es für den <em>R<sup>2</sup></em>.

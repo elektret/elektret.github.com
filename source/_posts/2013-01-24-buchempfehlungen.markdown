@@ -3,7 +3,8 @@ layout: post
 title: "Buchempfehlungen"
 date: 2013-01-24 20:47
 comments: true
-categories: 
+categories:
+  - books
 ---
 Da ich die letzten Tage nicht dazu gekommen bin
 hier viel zu schreiben möchte ich ein paar Empfehlungen geben:

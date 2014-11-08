@@ -3,7 +3,8 @@ layout: post
 title: "IPv6-Anbindung"
 date: 2012-07-20 00:30
 comments: true
-categories: 
+categories:
+  - ipv6
 ---
 In den nächsten Wochen wird es in der zahlenpresse einige strukturelle
 Veränderungen geben. Heute gibt es die erste: IPv6. Alle Teilnehmer am

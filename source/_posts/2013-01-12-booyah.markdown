@@ -3,7 +3,9 @@ layout: post
 title: "Booyah!"
 date: 2013-01-12 12:56
 comments: true
-categories: 
+categories:
+  - programming
+  - haskell
 ---
     quicksort :: (Ord a) => [a] -> [a]
     quicksort [] = []
