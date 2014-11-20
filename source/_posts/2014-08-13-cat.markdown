@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Catcontent"
+title: "Cat-Content"
 date: 2014-08-13 19:15
 comments: true
 categories:
