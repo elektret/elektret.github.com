@@ -6,4 +6,8 @@ comments: true
 categories:
   - cats
 ---
-{% img /images/blog/stern.jpg %}
+<iframe
+  style='width:100%;height:500px;'
+  src='/parallax/index.html'
+  frameborder='0'>
+</iframe>
