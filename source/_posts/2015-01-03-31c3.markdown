@@ -7,16 +7,16 @@ categories:
   - ccc
   - programming
 ---
-I watched some 31C3-Talks and have some remarks:
+I watched some 31C3-talks and have some remarks:
 
 * [The Perl Jam: Exploiting a 20 Year-old Vulnerability][perl]:
-  The Q & A session made clear some people are really annoyed, but
+  The Q&A session made clear some people are really annoyed, but
   every [dynamic programming language has a WAT][javascript].
 
 * [ECCHacks][ecchacks]: A gentle introduction to elliptic-curve
   cryptography. [Website][clock].
 
-[More][more] by starbug, djb and Tanja Lange, Sarah Harrison, raichoo,
+[More][more] by starbug, djb and Tanja Lange, ruedi, Sarah Harrison, raichoo,
 Tobias Engel and Karsten Nohl, Laura Poitras and Jacob Appelbaum
 
 [perl]: https://media.ccc.de/browse/congress/2014/31c3_-_6243_-_en_-_saal_1_-_201412292200_-_the_perl_jam_exploiting_a_20_year-old_vulnerability_-_netanel_rubin.html#video
