@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Haskell: Weather APP"
-date: 2015-12-28 23:023
+date: 2015-01-28 23:23
 comments: true
 categories:
   - haskell
@@ -12,8 +12,8 @@ categories:
 Download
     git clone https://github.com/blkdev/wet.git
 
-[Build instructions & Source][bi]. Haskell exercise: Error handling,
-HTTP request, JSON parsing, GD library.
+[Build instructions & Source][bi]. Haskell exercise: Exception
+handling, HTTP request, JSON parsing, GD library.
 
 Run
     cabal run -- -w Ribbesbuettel

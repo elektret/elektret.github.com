@@ -5,6 +5,7 @@ date: 2014-04-02 21:21
 comments: true
 categories:
   - meta
+  - film
 ---
 [The Oracle][oracle]: What about the others?
 
