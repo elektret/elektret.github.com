@@ -3,7 +3,8 @@ layout: post
 title: "Ein-Chip-Computer"
 date: 2013-07-28 17:19
 comments: true
-categories: 
+categories:
+  - electronics
 ---
 {% img right /images/blog/laborboard.jpg %}
 

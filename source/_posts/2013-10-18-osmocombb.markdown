@@ -6,6 +6,7 @@ comments: true
 categories:
   - umts
   - programming
+  - electronics
 ---
 {% img right /images/blog/osmocombb.jpg %}
     Received DOWNLOAD ACK from phone, your code is running now!

@@ -3,6 +3,8 @@ layout: post
 title: "Arduino Uno"
 date: 2013-07-25 11:35
 comments: true
-categories: 
+categories:
+  - photography
+  - electronics
 ---
-{% img /images/blog/arduino_uno.jpg %}
+{% img center /images/blog/arduino_uno.jpg %}

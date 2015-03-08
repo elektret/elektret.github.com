@@ -3,7 +3,8 @@ layout: post
 title: "Insights from administering a mail server"
 date: 2013-10-14 11:58
 comments: true
-categories: 
+categories:
+  - mail
 ---
 * [Monitoring][monitoring] is one of the most important things.
 

@@ -3,7 +3,8 @@ layout: post
 title: "CAN LCD Testboard"
 date: 2013-08-09 22:52
 comments: true
-categories: 
+categories:
+  - electronics
 ---
 {% img right /images/blog/hd44780.jpg %}
 
