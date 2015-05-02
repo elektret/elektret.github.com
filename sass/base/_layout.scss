@@ -48,14 +48,14 @@ body {
   text-rendering: optimizelegibility;
 }
 
-@media screen and (min-width: 320px) {
-  body { max-width: 304px; }
+@media screen and (min-width: 300px) {
+  body { max-width: 254px; }
 
   header > hgroup > div {
     display: block;
     padding: 2px;
-    width: 300px;
-    height: 230px;
+    width: 250px;
+    height: 192px;
     border: 2px solid #000000;
     background-image: url(/images/bg1.png);
     background-repeat: no-repeat;
@@ -70,14 +70,14 @@ body {
   }
 }
 
-@media screen and (min-width: 520px) {
-  body { max-width: 504px; }
+@media screen and (min-width: 500px) {
+  body { max-width: 421px; }
 
   header > hgroup > div {
     display: block;
     padding: 2px;
-    width: 500px;
-    height: 230px;
+    width: 417px;
+    height: 192px;
     border: 2px solid #000000;
     background-image: url(/images/bg2.png);
     background-repeat: no-repeat;
@@ -92,14 +92,14 @@ body {
   }
 }
 
-@media screen and (min-width: 820px) {
+@media screen and (min-width: 800px) {
   body { max-width: $max-width; }
 
   header > hgroup > div {
     display: block;
     padding: 2px;
-    width: 800px;
-    height: 230px;
+    width: 668px;
+    height: 192px;
     border: 2px solid #000000;
     background-image: url(/images/bg3.png);
     background-repeat: no-repeat;
