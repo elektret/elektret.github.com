@@ -1,0 +1,17 @@
+body > nav {
+  background-color: $nav-bg;
+  border-bottom: 2px solid $nav-border-bottom;
+
+  div {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 10px;
+
+    span {
+      margin: 5px;
+      text-transform: uppercase;
+      line-height: 1em;
+      font-size: 1.2em;
+    }
+  }
+}

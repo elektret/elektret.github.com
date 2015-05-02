@@ -1,0 +1,85 @@
+$max-width: 804px !default;
+
+// Padding used for layout margins
+$pad-min: 18px !default;
+$pad-narrow: 18px !default;
+$pad-medium: 18px !default;
+$pad-wide: 18px !default;
+
+$indented-lists: true !default;
+
+$header-font-size: 1em !default;
+$header-padding-top: 1.5em !default;
+$header-padding-bottom: .75em !default;
+
+$img-border: #666;
+
+// Main Link Colors
+$link-color: #990000 !default;
+$link-color-hover: $link-color;
+$link-color-visited: $link-color;
+$link-color-active: $link-color-visited !default;
+
+$pre-bg: #eee8d5 !default;
+$pre-border: #cccccc !default;
+$pre-color: #657b83 !default;
+
+// Main Section Colors
+$site-bg: white;
+$site-border: #cccccc !default;
+$main-bg: transparent !default;
+$page-bg: transparent !default;
+
+$title-color: #dfdfdf !default;
+$subtitle-color: #000 !default;
+
+$header-color: #111;
+$header-link-color: lighten($link-color, 10);
+$header-bg: transparent !default;
+$header-border: none !default;
+
+$text-color: #333 !default;
+$text-color-light: #888 !default;
+$type-border: #ddd !default;
+
+/* Navigation */
+$nav-bg: transparent !default;
+$nav-bg-front: transparent !default;
+$nav-bg-back: transparent !default;
+$nav-color: $text-color !default;
+$nav-color-hover: $link-color !default;
+$nav-placeholder: desaturate(darken($text-color, 10), 15) !default;
+$nav-border: lighten($text-color-light, 38) !default;
+$nav-border-top: lighten($site-bg, 50) !default;
+$nav-border-bottom: $nav-border !default;
+$nav-border-left: $nav-border !default;
+$nav-border-right: #fff !default;
+
+$footer-color: lighten($text-color-light, 10) !default;
+$footer-color-hover: $text-color-light !default;
+$footer-bg: transparent !default;
+$footer-bg-front: transparent !default;
+$footer-bg-back: transparent !default;
+$footer-border-top: darken($site-bg, 10) !default;
+$footer-border-bottom: none !default;
+$footer-link-color: darken($text-color-light, 38) !default;
+$footer-link-color-hover: darken($footer-color, 25) !default;
+
+$page-border-bottom: lighten($text-color-light, 38) !default;
+$article-border: $footer-border-top !default;
+
+$blockquote: $type-border !default;
+$sans: 'HelveticaNeue-Light','HelveticaNeue',Helvetica,Arial,sans-serif !default;
+$serif: "PT Serif", Georgia, Times, "Times New Roman", serif !default;
+$mono: PragmataPro, Menlo, Monaco, "Andale Mono", "Lucida Console", "Courier New", monospace !default;
+$heading-font-family: 'HelveticaNeue-CondensedBold','HelveticaNeue',Helvetica,Arial,sans-serif !default;
+$header-title-font-family: $sans !default;
+$header-subtitle-font-family: $heading-font-family !default;
+$nav-font-family: $heading-font-family !default;
+
+$h1: 1.2em !default;
+$h2: 1.2em !default;
+$h3: 1em !default;
+$h4: 1em !default;
+$h5: 0.9em !default;
+$h6: 0.8em !default;
