@@ -1,74 +1,132 @@
 article {
   padding-top: 1em;
-  a { @extend .force-wrap; }
+
   header {
-    position: relative;
-    padding-top: 2em;
-    padding-bottom: 1em;
-    margin-bottom: 1em;
-    background: $img-border bottom left repeat-x;
+    margin-bottom: 10px;
+
     h1 {
-      margin: 0;
-      a { text-decoration: none;
-        &:hover { text-decoration: underline; } }
+      font-size: 2em;
+      font-weight: bold;
+      color: $header-color;
+      a { color: $header-color; }
+      a:hover { color: $header-link-color; }
     }
+
+    @media screen and (min-width: 320px) {
+      h1 { font-size: 1em; }
+    }
+
+
+    @media screen and (min-width: 520px) {
+      h1 { font-size: 1.5em; }
+    }
+
+    @media screen and (min-width: 800px) {
+      h1 { font-size: 2em; }
+    }
+
     p {
       font-size: .9em;
-      color: $text-color-light;
+      color: lighten($text-color-light, 10);
       margin: 0;
       &.meta {
         @extend .sans;
         text-transform: uppercase;
-        position: absolute; top: 0;
       }
     }
-    @media only screen and (min-width: 768px) {
-      margin-bottom: 1.5em;
-      padding-bottom: 1em;
-      background: $img-border bottom left repeat-x;
-    }
   }
-  h2 {
-    padding-top: 0.8em;
-    background: $img-border top left repeat-x;
+
+  h1 {
+    font-size: $h1;
+    line-height: 1.2em;
   }
-  .entry-content & h2:first-child, header + h2 { padding-top: 0; }
-  h2:first-child, header + h2 { background: none; }
-  .feature {
-    padding-top: .5em;
-    margin-bottom: 1em;
-    padding-bottom: 1em;
-    background: $img-border bottom left repeat-x;
-    font-size: 2.0em; font-style: italic;
-    line-height: 1.3em;
-  }
+
+  p, blockquote, ul, ol { margin-bottom: 1.5em; }
+
+  ul { list-style-type: circle;
+    ul { list-style-type: disc; margin-bottom: 0px;
+      ul { list-style-type: square; margin-bottom: 0px; }}}
+
+  ol { list-style-type: decimal;
+    ol { list-style-type: lower-alpha; margin-bottom: 0px;
+      ol { list-style-type: lower-roman; margin-bottom: 0px; }}}
+
+  ul, ol { &, ul, ol { margin-left: 1.3em; }}
+
   img, video, .flash-video {
     @extend .flex-content;
     @extend .basic-alignment;
-    @include shadow-box;
+    @include shadow-box($border: #aaa 1px solid, $shadow: rgba(#000, .25) 0 2px 10px, $border-radius: .3em);
+    padding: .25em;
+    background-color: #fff;
   }
-  video, .flash-video { margin: 0 auto 1.5em; }
-  video { display: block; width: 100%; }
-  .flash-video {
-    > div {
-      position: relative;
-      display: block;
-      padding-bottom: 56.25%;
-      padding-top: 1px;
-      height: 0;
-      overflow: hidden;
-      iframe, object, embed {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-      }
+
+  strong { font-weight: bold; }
+  em { font-style: italic; }
+
+  mark {
+    color: darken($text-color-light, 15);
+    background-color: transparent;
+    font-weight: normal;
+    font-style: italic;
+  }
+
+  sup, sub { font-size: 0.8em; position: relative;  display: inline-block; }
+  sup { top: -.5em; }
+  sub { bottom: -.5em; }
+
+  q {
+    font-style: italic;
+    &:before { content: "\201C"; }
+    &:after { content: "\201D"; }
+  }
+
+  em, dfn { font-style: italic; }
+  strong, dfn { font-weight: bold; }
+  del, s { text-decoration: line-through; }
+
+  abbr, acronym { border-bottom: 1px dotted; cursor: help; }
+  pre, code, tt { @extend .mono; }
+  sub, sup { line-height: 0; }
+  hr { margin-bottom: 0.2em; }
+  small { font-size: .8em; }
+  big { font-size: 1.2em; }
+
+  code { @extend .pre-code; }
+
+  pre {
+    background: $pre-bg;
+    @include border-radius(.4em);
+    @extend .mono;
+    border: 1px solid $pre-border;
+    line-height: 1.45em;
+    font-size: 13px;
+    margin-bottom: 2.1em;
+    padding: .8em 1em;
+    color: $pre-color;
+    overflow: auto;
+  }
+
+  blockquote {
+    $bq-margin: 1.2em;
+    font-style: italic;
+    position: relative;
+    font-size: 1.2em;
+    line-height: 1.5em;
+    padding-left: 1em;
+    border-left: 4px solid rgba($text-color-light, .5);
+
+    cite {
+      font-style: italic;
+      a { color: $text-color-light !important; word-wrap: break-word; }
+      &:before { content: '\2014'; padding:{right: .3em; left: .3em;} color: $text-color-light; }
     }
   }
-  > footer {
-    padding-bottom: 2.5em;
-    margin-top: 2em;
+
+  footer {
+    color: $text-color-light;
+    padding-bottom: .1em;
+    margin-top: .2em;
     @extend .sans;
     p.meta {
       margin-bottom: .8em;
@@ -80,54 +138,22 @@ article {
       @extend .separator;
     }
   }
-
-}
-article + article {
-  .blog-index & {
-    background: $img-border top left repeat-x;
-  }
-}
-#content .blog-index {
-  padding: { top: 0; bottom: 0; }
-  article { padding-top: 2em; }
-  article header { background: none; padding-bottom: 0; }
-  article h1 {
-    font-size: 2.2em;
-    a { color: inherit; &:hover { color: $link-color-hover; } }
-  }
-  a[rel=full-article] {
-    background: darken($main-bg, 5);
-    display: inline-block;
-    padding: .4em .8em;
-    margin-right: .5em;
-    text-decoration: none;
-    color: mix($text-color, $text-color-light);
-    @extend .serif;
-    @include transition(background-color .5s);
-    &:hover {
-      background: $link-color-hover;
-      text-shadow: none;
-      color: $main-bg;
-    }
-  }
-  footer {
-    @extend .sans;
-    margin-top: 1em;
-  }
 }
 
 .separator {
-  content: "\2022 ";
+  content: "—";
   padding: 0 .4em 0 .2em;
   display: inline-block;
 }
 
 #content div.pagination {
+  @include pie-clearfix;
   text-align: center;
   font-size: .95em;
   position: relative;
-  background: $img-border top left repeat-x;
   padding: {top: 1.5em; bottom: 1.5em;}
+  border-top: 1px solid #fff;
+
   a {
     text-decoration: none;
     color: $text-color-light;
