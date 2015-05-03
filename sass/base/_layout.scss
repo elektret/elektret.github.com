@@ -4,7 +4,7 @@ html {
 }
 
 body {
-  max-width: $max-width;
+  width: $max-width;
   position: relative;
   margin: auto; 
   margin-top: 10px;
@@ -50,7 +50,7 @@ body {
 }
 
 @media screen and (min-width: 0px) {
-  body { max-width: 254px; }
+  body { width: 254px; }
 
   header > hgroup > div {
     display: block;
@@ -72,7 +72,7 @@ body {
 }
 
 @media screen and (min-width: 400px) {
-  body { max-width: 324px; }
+  body { width: 324px; }
 
   header > hgroup > div {
     display: block;
@@ -94,7 +94,7 @@ body {
 }
 
 @media screen and (min-width: 500px) {
-  body { max-width: 421px; }
+  body { width: 421px; }
 
   header > hgroup > div {
     display: block;
@@ -116,7 +116,7 @@ body {
 }
 
 @media screen and (min-width: 800px) {
-  body { max-width: $max-width; }
+  body { width: $max-width; }
 
   header > hgroup > div {
     display: block;
