@@ -64,6 +64,34 @@ article {
     background-color: #fff;
   }
 
+  figure.equation {
+    font-size: 100%;
+    text-align: center;
+  }
+
+  @media screen and (min-width: 0px) {
+    figure.equation {
+      font-size: 50%;
+    }
+  }
+
+  @media screen and (min-width: 400px) {
+    figure.equation {
+      font-size: 70%;
+    }
+  }
+
+  @media screen and (min-width: 500px) {
+    figure.equation {
+      font-size: 90%;
+    }
+  }
+  @media screen and (min-width: 800px) {
+    figure.equation {
+      font-size: 100%;
+    }
+  }
+
   iframe { 
     @extend .flex-content;
     @extend .basic-alignment;

@@ -3,7 +3,8 @@ layout: post
 title: "Ausgleichsmandate"
 date: 2013-09-06 01:36
 comments: true
-categories: 
+categories:
+  - equation
 ---
 Wer weiß wie das [neue Wahlrecht][netzpolitik] funktioniert?
 Angenommen es ergibt sich eine Verteilung nach Zweitstimmen für drei Parteien
@@ -13,11 +14,15 @@ Zweitstimmenverteilung wieder gerecht wird. Frage: Wie sieht die Sitzverteilung 
 
 Antwort: Es wird erstmal eine Größe gebraucht die heißt „Zuteilungsdivisor“:
 
-$$ \hbox{Zuteilungsdivisor} = \frac{\hbox{Zweitstimmen (Gesammt)}}{\hbox{Sitze im Parlament}} $$
+{% equation %}
+\hbox{Zuteilungsdivisor} = \frac{\hbox{Zweitstimmen (Gesammt)}}{\hbox{Sitze im Parlament}}
+{% endequation %}
 
 Ohne Berücksichtigung der Überhangmandate für Partei B ergibt sich dann:
 
-$$ \hbox{Sitze} = \frac{\hbox{Zweitstimmen (Partei)}}{\hbox{Zuteilungsdivisor}} = \frac{\hbox{Anteil}\cdot\hbox{Zweitstimmen (Gesammt)}}{\hbox{Zuteilungsdivisor}} $$
+{% equation %}
+\hbox{Sitze} = \frac{\hbox{Zweitstimmen (Partei)}}{\hbox{Zuteilungsdivisor}} = \frac{\hbox{Anteil}\cdot\hbox{Zweitstimmen (Gesammt)}}{\hbox{Zuteilungsdivisor}}
+{% endequation %}
 
 Zuteilungsdivisor von oben einsetzen und die Sitzverteilung berechnen:
 
@@ -29,8 +34,13 @@ Soweit nichts Neues. Um die zwei Überhangmandate von Partei B auszugleichen wir
 Zuteilungsdivisor neu berechnet. Dafür wird einfach rückwärts gerechnet.
 Für Sitze wird 2 eingesetzt und Sitze im Parlament heißt jetzt Auffüllsitze:
 
-$$ \hbox{Zuteilungsdivisor} = \frac{\hbox{Zweitstimmen (Gesammt)}}{\hbox{Auffüllsitze}} $$
-$$ 2 = \frac{0,30\cdot\hbox{Zweitstimmen (Gesammt)}}{\hbox{Zuteilungsdivisor}} $$
+{% equation %}
+\hbox{Zuteilungsdivisor} = \frac{\hbox{Zweitstimmen (Gesammt)}}{\hbox{Auffüllsitze}}
+{% endequation %}
+
+{% equation %}
+2 = \frac{0,30\cdot\hbox{Zweitstimmen (Gesammt)}}{\hbox{Zuteilungsdivisor}}
+{% endequation %}
 
 Zuteilungsdivisor einsetzen und nach „Auffüllsitze“ auflösen.
 

@@ -1,12 +1,20 @@
 <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 <script type="text/x-mathjax-config">
   MathJax.Hub.Config({
-    jax: ["input/TeX", "output/HTML-CSS"],
-    tex2jax: {
+    "jax": ["input/TeX", "output/HTML-CSS"],
+    styles: {
+      ".MathJax_Display": {
+        "text-align": "left"
+      }
+    },  
+    "tex2jax": {
       inlineMath: [ ['$', '$'], ["\\(", "\\)"] ],
       displayMath: [ ['$$', '$$'], ["\\[", "\\]"] ],
       processEscapes: true,
       skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+    },
+    "HTML-CSS": {
+      linebreaks: { automatic: true }
     }
-  })
+  });
 </script>
