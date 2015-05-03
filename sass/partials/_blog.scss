@@ -61,6 +61,11 @@ article {
     background-color: #fff;
   }
 
+  iframe { 
+    @extend .flex-content;
+    @extend .basic-alignment;
+  }
+
   strong { font-weight: bold; }
   em { font-style: italic; }
 
