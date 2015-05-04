@@ -1,51 +1,15 @@
-# Title: Simple Code Blocks for Jekyll
-# Author: Brandon Mathis http://brandonmathis.com
-# Description: Write codeblocks with semantic HTML5 <figure> and <figcaption> elements and optional syntax highlighting — all with a simple, intuitive interface.
-#
-# Syntax:
-# {% codeblock [title] [url] [link text] %}
-# code snippet
-# {% endcodeblock %}
-#
-# For syntax highlighting, put a file extension somewhere in the title. examples:
-# {% codeblock file.sh %}
-# code snippet
-# {% endcodeblock %}
-#
-# {% codeblock Time to be Awesome! (awesome.rb) %}
-# code snippet
-# {% endcodeblock %}
+# Title: Simple Equations for Octopress
+# Author: Manuel
+# Description: Write equations.
 #
 # Example:
-#
-# {% codeblock Got pain? painreleif.sh http://site.com/painreleief.sh Download it! %}
-# $ rm -rf ~/PAIN
-# {% endcodeblock %}
-#
-# Output:
-#
-# <figure class='code'>
-# <figcaption><span>Got pain? painrelief.sh</span> <a href="http://site.com/painrelief.sh">Download it!</a>
-# <div class="highlight"><pre><code class="sh">
-# -- nicely escaped highlighted code --
-# </code></pre></div>
-# </figure>
-#
-# Example 2 (no syntax highlighting):
-#
-# {% codeblock %}
-# <sarcasm>Ooooh, sarcasm... How original!</sarcasm>
-# {% endcodeblock %}
-#
-# <figure class='code'>
-# <pre><code>&lt;sarcasm> Ooooh, sarcasm... How original!&lt;/sarcasm></code></pre>
-# </figure>
-#
-#require './plugins/pygments_code'
+# {% equation %}
+# f(\zeta) = \frac{1}{2\pi i}\oint_\gamma \frac{f(z)}{z-\zeta}\, dz
+# {% endeqation %}
+
 require './plugins/raw'
 
 module Jekyll
-
   class EquationBlock < Liquid::Block
      include TemplateWrapper
 
@@ -54,13 +18,12 @@ module Jekyll
     end
 
     def render(context)
-      code = super
-      source = "<figure class='equation'>$$"
-      code = code
+      code = super 
         .gsub(/</,'\lt')
         .gsub(/>/,'\gt')
-       source += "#{code}$$</figure>"
-       safe_wrap(source)
+      source = "<figure class='equation'>\\begin{equation}"
+      source += "#{code.strip}\\end{equation}</figure>"
+      safe_wrap(source)
     end
   end
 end

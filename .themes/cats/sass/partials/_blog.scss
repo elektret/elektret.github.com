@@ -64,7 +64,12 @@ article {
     background-color: #fff;
   }
 
-  figure.equation {
+  figure.equation { 
+    background: $pre-bg;
+    @include border-radius(.4em);
+    @extend .mono;
+    border: 1px solid $pre-border;
+    padding: 5px;
     font-size: 100%;
     text-align: center;
   }
@@ -77,13 +82,13 @@ article {
 
   @media screen and (min-width: 400px) {
     figure.equation {
-      font-size: 70%;
+      font-size: 60%;
     }
   }
 
   @media screen and (min-width: 500px) {
     figure.equation {
-      font-size: 90%;
+      font-size: 80%;
     }
   }
   @media screen and (min-width: 800px) {
