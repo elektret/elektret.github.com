@@ -17,18 +17,21 @@
 }
 
 .pre-code {
-//  @include selection(adjust-color($base03, $lightness: 23%, $saturation: -65%), $text-shadow: $base03 0 1px);
-//  font-family: $mono !important;
-  overflow: scroll;
+  overflow-y: scroll;
   overflow-y: hidden;
-  display: block;
-  padding: .8em !important;
-  overflow-x: auto;
+}
+
+.pre-box {
+  @include border-radius(.4em);
+  @extend .mono;
+  background-color: $pre-bg;
+  border: 1px solid $pre-border;
   line-height: 1.45em;
-//  background: $base03 $noise-bg !important;
-//  color: $base1 !important;
-//  span { color: $base1 !important; }
-//  span { font-style: normal !important; font-weight: normal !important; }
+  font-size: 13px;
+  margin-bottom: 2.1em;
+  padding: .5em;
+  color: $pre-color;
+  overflow: auto;
 }
 
 .flex-content {

@@ -9,13 +9,13 @@ categories:
 ---
 {% img right /images/blog/ribbesbuettel.png 285 Ribbesbuettel %}
 
-Download
+### Download
     git clone https://github.com/blkdev/wet.git
 
 [Build instructions & Source][bi]. Haskell exercise: Exception
 handling, HTTP request, JSON parsing, GD library.
 
-Run
+### Run
     cabal run -- -w Ribbesbuettel
     cabal run -- -f ribbesbuettel.json
 

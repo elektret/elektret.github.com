@@ -11,7 +11,7 @@ body {
   margin-bottom: 10px;
   background-color: $site-bg; 
   border: 3px solid $site-border;
-  padding: $pad-min;
+  padding: $padding;
   font-size: 1.125em;
   line-height: 1.5em;
   color: $text-color;
@@ -35,8 +35,8 @@ body {
     > header, > nav, > footer, #content > article, #content > div >
     > article, #content > div > section {
       @extend .group;
-      padding-left: $pad-min;
-      padding-right: $pad-min;
+      padding-left: $padding;
+      padding-right: $padding;
     }
   }
 
@@ -50,7 +50,7 @@ body {
 }
 
 @media screen and (min-width: 0px) {
-  body { width: 254px; }
+  body { width: 260px; } /*254*/
 
   header > hgroup > div {
     display: block;
@@ -72,7 +72,7 @@ body {
 }
 
 @media screen and (min-width: 400px) {
-  body { width: 324px; }
+  body { width: 330px; } /*324*/
 
   header > hgroup > div {
     display: block;
@@ -94,7 +94,7 @@ body {
 }
 
 @media screen and (min-width: 500px) {
-  body { width: 421px; }
+  body { width: 430px; } /*421*/
 
   header > hgroup > div {
     display: block;

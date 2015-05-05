@@ -39,11 +39,6 @@ article {
     }
   }
 
-  h1 {
-    font-size: $h1;
-    line-height: 1.2em;
-  }
-
   p, blockquote, ul, ol { margin-bottom: 1.5em; }
 
   ul { list-style-type: circle;
@@ -64,14 +59,8 @@ article {
     background-color: #fff;
   }
 
-  figure.equation { 
-    background: $pre-bg;
-    @include border-radius(.4em);
-    @extend .mono;
-    border: 1px solid $pre-border;
-    padding: 5px;
-    font-size: 100%;
-    text-align: center;
+  figure.equation {
+    @extend .pre-box;
   }
 
   @media screen and (min-width: 0px) {
@@ -127,25 +116,17 @@ article {
   del, s { text-decoration: line-through; }
 
   abbr, acronym { border-bottom: 1px dotted; cursor: help; }
-  pre, code, tt { @extend .mono; }
   sub, sup { line-height: 0; }
   hr { margin-bottom: 0.2em; }
   small { font-size: .8em; }
   big { font-size: 1.2em; }
 
-  code { @extend .pre-code; }
+  code {
+    @extend .pre-code;
+  }
 
   pre {
-    background: $pre-bg;
-    @include border-radius(.4em);
-    @extend .mono;
-    border: 1px solid $pre-border;
-    line-height: 1.45em;
-    font-size: 13px;
-    margin-bottom: 2.1em;
-    padding: .8em 1em;
-    color: $pre-color;
-    overflow: auto;
+    @extend .pre-box;
   }
 
   blockquote {
