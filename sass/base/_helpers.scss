@@ -17,6 +17,7 @@
 }
 
 .pre-code {
+  @extend .mono;
   overflow-y: scroll;
   overflow-y: hidden;
 }
