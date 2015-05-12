@@ -24,11 +24,11 @@ At last bring the _dd_ process back to the foreground and kill it:
     fg
     # (Ctrl-c)
 
-### Find unlinked files (still in use) with lsof:
+### Finding unlinked files (still in use) with lsof:
 
     lsof +L1
 
-### Find deleted shared objects (still in use):
+### Finding deleted shared objects (still in use):
 
     sudo grep --color=auto -Hin 'deleted' /proc/*/maps
 
