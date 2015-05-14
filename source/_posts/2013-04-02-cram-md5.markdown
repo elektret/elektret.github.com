@@ -7,6 +7,8 @@ categories:
   - ruby
   - programming
   - md5
+  - listing
+  - administration
 ---
 Zum Testen der Konfiguration eines Mailservers via
 <a href='http://de.wikipedia.org/wiki/Mail_Submission_Agent'>Submission</a>,

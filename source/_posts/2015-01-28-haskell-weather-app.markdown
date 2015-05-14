@@ -6,6 +6,7 @@ comments: true
 categories:
   - haskell
   - programming
+  - weather
 ---
 {% img right /images/blog/ribbesbuettel.png 285 Ribbesbuettel %}
 

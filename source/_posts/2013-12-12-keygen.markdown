@@ -7,6 +7,7 @@ categories:
   - keygen
   - programming
   - ruby
+  - disassembly
 ---
 Maybe you remember the old software distribution models. People had
 obtained a trail version and bought a software key afterwards which

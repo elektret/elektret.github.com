@@ -5,6 +5,7 @@ date: 2013-10-14 11:58
 comments: true
 categories:
   - mail
+  - administration
 ---
 * [Monitoring][monitoring] is one of the most important things.
 

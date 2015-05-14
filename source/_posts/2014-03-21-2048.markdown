@@ -5,6 +5,7 @@ date: 2014-03-21 19:34
 comments: true
 categories:
   - games
+  - links
 ---
 * [2048](http://gabrielecirulli.github.io/2048/)
 * [2048-AI](http://ov3y.github.io/2048-AI/)

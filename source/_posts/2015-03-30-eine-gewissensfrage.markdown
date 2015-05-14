@@ -3,7 +3,9 @@ layout: post
 title: "Eine Gewissensfrage"
 date: 2015-03-30 14:46
 comments: true
-categories: 
+categories:
+  - survey
+  - meta
 ---
 Folgendes Problem: Zwei Gleise verlaufen parallel. Auf dem einen Gleis
 spielen Kinder, auf der anderen Seite befindet sich ein älterer Herr.

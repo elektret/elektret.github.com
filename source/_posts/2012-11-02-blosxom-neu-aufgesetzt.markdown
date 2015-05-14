@@ -5,6 +5,8 @@ date: 2012-11-02 10:52
 comments: true
 categories:
   - programming
+  - framework
+  - perl
 ---
 <p>Ich habe das Blog mal wieder mit der alten
 <a href='http://www.blosxom.com/'>Software</a> neu aufgesetzt.

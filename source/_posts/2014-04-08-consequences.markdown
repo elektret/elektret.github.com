@@ -5,6 +5,7 @@ date: 2014-04-08 08:27
 comments: true
 categories:
   - medulloblastoma
+  - chemotherapy
 ---
 After half a year I know what are the consequences of [MET-HIT
 2000-AB4][hit2000]. So, I did the first chemotherapy at the age of 24.

@@ -6,6 +6,7 @@ comments: true
 categories:
   - programming
   - haskell
+  - listing
 ---
     insertionsort :: (Ord a) => [a] -> [a]
     insertionsort [] = []

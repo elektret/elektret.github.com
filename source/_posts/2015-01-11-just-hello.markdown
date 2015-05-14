@@ -6,6 +6,7 @@ comments: true
 categories:
   - haskell
   - programming
+  - listing
 ---
 <pre>return "Hello!" :: Maybe [Char]</pre>
 

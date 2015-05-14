@@ -6,6 +6,7 @@ comments: true
 categories:
   - programming
   - umts
+  - ruby
 ---
     $ mkdir medion; cd medion
     $ gem install serialport

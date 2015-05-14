@@ -6,6 +6,7 @@ comments: true
 categories:
   - ccc
   - programming
+  - event
 ---
 I watched some 31C3-talks and have some remarks:
 

@@ -6,6 +6,7 @@ comments: true
 categories:
   - physics
   - mathematics
+  - listing
 ---
 <p>Hier geht es um reelle und endlichdimensionale Skalarprodukträume.
 Ein Beispiel—das sich aber leicht erweitern lässt—gibt es für den <em>R<sup>2</sup></em>.

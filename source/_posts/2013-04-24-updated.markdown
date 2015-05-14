@@ -7,6 +7,7 @@ categories:
   - pdf
   - mathematics
   - physics
+  - links
 ---
 Inspiriert von einer [englischsprachigen Seite][overapi] auf der
 verschiedene _cheat sheets_ gesammelt werden,

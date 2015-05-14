@@ -6,6 +6,7 @@ comments: true
 categories:
   - causa
   - film
+  - podcasts
 ---
 Die _taz_ beschäftigt sich heute (30.01.15) mit der
 [Filmsynchronisation in deutschen Kinos][taz]. Dieses  zweifelhafte

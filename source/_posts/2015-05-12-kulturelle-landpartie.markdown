@@ -6,6 +6,8 @@ comments: true
 categories:
   - event
   - meta
+  - photography
+  - workshop
 ---
 {% img /images/blog/kl.jpg Kulturelle Landpartie %}
 

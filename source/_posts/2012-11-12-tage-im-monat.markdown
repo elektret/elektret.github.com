@@ -6,6 +6,7 @@ comments: true
 categories:
   - programming
   - ruby
+  - listing
 ---
 <p>Ich brauchte mal eine kurze Formal um die Anzahl der Tage in
 einem Monat zu berrechnen.

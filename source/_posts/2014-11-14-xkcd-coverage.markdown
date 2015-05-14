@@ -7,6 +7,7 @@ categories:
   - philae
   - physics
   - xkcd
+  - esa
 ---
 {% img /images/blog/philae.gif 500 Philae landing %}
 

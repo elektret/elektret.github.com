@@ -5,6 +5,7 @@ date: 2013-10-31 22:07
 comments: true
 categories:
   - medulloblastoma
+  - chemotherapy
 ---
 After tumor extirpation they told me I need extra treatment, I need a chemo
 therapy in addition to a radiation therapy. They implanted a

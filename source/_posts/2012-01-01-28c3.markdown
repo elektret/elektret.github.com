@@ -5,6 +5,7 @@ date: 2012-01-01 10:29
 comments: true
 categories:
   - ccc
+  - event
 ---
 <p>Diese Stunden geht der
 <a href='http://events.ccc.de/congress/2011'>28C3</a>-Kongress in Berlin zu Ende.

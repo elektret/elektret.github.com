@@ -7,6 +7,7 @@ categories:
   - administration
   - unix
   - bash
+  - debian
 ---
 ### Progress of dd:
 Start by running a _dd_ process. Suspend the process and run it in

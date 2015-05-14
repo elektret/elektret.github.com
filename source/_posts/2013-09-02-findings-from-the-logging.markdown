@@ -6,6 +6,7 @@ comments: true
 categories:
   - programming
   - mail
+  - administration
 ---
 After a few months having [Fail2ban][fail2ban] at work
 I wanted to know which networks seeking for exploits on my servers most frequently.

@@ -6,6 +6,7 @@ comments: true
 categories:
   - pdf
   - mathematics
+  - numbers
 ---
 Eine kurze [Abhandlung über komplexe Zahlen][doc]. Definition,
 Schreibweise und Rechenregeln. Ist während meines Studiums entstanden.

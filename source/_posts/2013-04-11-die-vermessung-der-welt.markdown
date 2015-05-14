@@ -3,7 +3,9 @@ layout: post
 title: "Die Vermessung der Welt"
 date: 2013-04-11 20:48
 comments: true
-categories: 
+categories:
+  - books
+  - novels
 ---
 Kurz: _Die Vermessung der Welt_, 2005 ist ein auf Deutsch erschienener [Roman][buch]
 von Daniel Kehlmann und wurde später unter der Regie von Detlev Buck [verfilmt][film].

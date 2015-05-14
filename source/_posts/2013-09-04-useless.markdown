@@ -6,6 +6,7 @@ comments: true
 categories:
   - ruby
   - programming
+  - listing
 ---
     #!/usr/bin/env ruby -w
     function, list, f = {}, [], nil

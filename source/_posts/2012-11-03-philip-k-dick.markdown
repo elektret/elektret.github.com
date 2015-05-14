@@ -5,6 +5,8 @@ date: 2012-11-03 22:21
 comments: true
 categories:
   - books
+  - novels
+  - links
 ---
 <p>Vor einiger Zeit hat mir im Radio das
 <a href='http://www.dradio.de/dlf/sendungen/hoerspiel/1806698/'>Hörspiel</a>

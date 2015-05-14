@@ -3,7 +3,9 @@ layout: post
 title: "Fail2ban"
 date: 2013-04-01 01:40
 comments: true
-categories: 
+categories:
+  - administration
+  - centos
 ---
 [Fail2ban][fail2ban] ist ein wirklich nützliches Tool,
 aber mit CentOS kein Vergnügen. Da gibt es verschiedene Probleme mit

@@ -7,6 +7,7 @@ categories:
   - equation
   - theme
   - mathematics
+  - listing
 ---
 Maybe you have noticed there are a few changes on this site. I'm
 working on a minimalistic [octopress-theme][cats] which is basically a
