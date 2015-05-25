@@ -7,4 +7,4 @@ categories:
   - photography
   - electronics
 ---
-{% img center /images/blog/arduino_uno.jpg %}
+{% img center /data/images/arduino_uno.jpg %}

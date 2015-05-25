@@ -9,7 +9,7 @@ categories:
   - photography
   - workshop
 ---
-{% img /images/blog/kl.jpg Kulturelle Landpartie %}
+{% img /data/images/kl.jpg Kulturelle Landpartie %}
 
 * 14.05 | 13:00 -- Brauereiführung (Kussebode)
 * 15.05 | 13:00 -- Die Atomanlagen Gorleben (Gorleben)

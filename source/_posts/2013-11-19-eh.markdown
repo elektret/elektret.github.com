@@ -10,5 +10,5 @@ Recently I noticed the blood type on my donor-card and the one on the last
 [discharge letter][letter] [differ][differ]. I guess the letter is wrong.
 Pretty smart.
 
-[differ]: /images/eh.jpg
+[differ]: /data/images/eh.jpg
 [letter]: /mirror/arztbrief_chemo.pdf

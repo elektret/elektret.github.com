@@ -6,7 +6,7 @@ comments: true
 categories:
   - electronics
 ---
-{% img right /images/blog/hd44780.jpg %}
+{% img right /data/images/hd44780.jpg %}
 
 This project aims to control a HD44780 LCD display over the [CAN bus][can].
 This is a common scenario in every modern automobile.

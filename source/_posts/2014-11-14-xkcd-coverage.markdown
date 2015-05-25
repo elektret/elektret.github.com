@@ -9,7 +9,7 @@ categories:
   - xkcd
   - esa
 ---
-{% img /images/blog/philae.gif 500 Philae landing %}
+{% img /data/images/philae.gif 500 Philae landing %}
 
 All images: [www.explainxkcd.com][explainxkcd].
 

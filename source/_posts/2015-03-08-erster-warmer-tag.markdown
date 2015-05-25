@@ -7,4 +7,4 @@ categories:
   - cats
   - photography
 ---
-{% img center /images/blog/warmertag.jpg Erster warmer Tag! %}
+{% img center /data/images/warmertag.jpg Erster warmer Tag! %}

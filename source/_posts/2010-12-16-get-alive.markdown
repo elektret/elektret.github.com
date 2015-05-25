@@ -11,7 +11,7 @@ Internet users and share my life! [Dork Tower][img].
 
 Update: [Oh][dorktower], [no][afk], [wow][dilbert].
 
-[img]: http://web.archive.org/web/20030530043352/www.gamespy.com/comics/dorktower/images/comics/dorktower219.jpg
-[dorktower]: /images/dorktower219.jpg
-[dilbert]: /images/dilbert.jpg
-[afk]: /images/afk.jpg
+[img]: http://web.archive.org/web/20030530043352/www.gamespy.com/comics/dorktower/data/images/comics/dorktower219.jpg
+[dorktower]: /data/images/dorktower219.jpg
+[dilbert]: /data/images/dilbert.jpg
+[afk]: /data/images/afk.jpg

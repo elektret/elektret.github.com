@@ -8,7 +8,7 @@ categories:
   - programming
   - weather
 ---
-{% img right /images/blog/ribbesbuettel.png 285 Ribbesbuettel %}
+{% img right /data/images/ribbesbuettel.png 285 Ribbesbuettel %}
 
 ### Download
     git clone https://github.com/blkdev/wet.git

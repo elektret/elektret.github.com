@@ -6,7 +6,7 @@ comments: true
 categories:
   - medulloblastoma
 ---
-{% img left /images/blog/56teile.jpg %}
+{% img left /data/images/56teile.jpg %}
 
 Nach 48 Tagen im Krankenhaus ist es doch mal Zeit eine kleine
 Zusammenfassung zu geben. Viel ist passiert. Ein Gehirntumor wurde

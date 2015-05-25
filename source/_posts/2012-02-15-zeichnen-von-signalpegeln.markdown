@@ -6,7 +6,7 @@ comments: true
 categories:
   - physics
 ---
-{% img right /images/blog/schaltung2.png %}
+{% img right /data/images/schaltung2.png %}
 
 In den letzten Tagen musste ich für eine digitale Schaltung—also für eine
 regenerationsfähige Schaltung in der nur diskrete Spannungen genutzt werden—die
@@ -43,4 +43,4 @@ Etwa:
     gem install chunky_png
 
 [hlevel]: https://github.com/elektret/petridish/tree/master/hl-evel
-[beispiel]: /images/blog/schaltung.png
+[beispiel]: /data/images/schaltung.png

@@ -6,7 +6,7 @@ comments: true
 categories:
   - electronics
 ---
-{% img right /images/blog/laborboard.jpg %}
+{% img right /data/images/laborboard.jpg %}
 
 Neue und [alte Projekte][github] sind in Planung. Ich habe die Kiste mit
 den kleinen schwarzen Bauteilen wieder geöffnet. Zu verfolgen gibt es

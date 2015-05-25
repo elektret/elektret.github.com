@@ -8,7 +8,7 @@ categories:
   - programming
   - electronics
 ---
-{% img right /images/blog/osmocombb.jpg %}
+{% img right /data/images/osmocombb.jpg %}
     Received DOWNLOAD ACK from phone, your code is running now!
     OsmocomBB Hello World (revision osmocon_v0.0.0-1749-gbf83e02-modified)
     BAT-ADC: 587 736   0   0 1023 375 423 123

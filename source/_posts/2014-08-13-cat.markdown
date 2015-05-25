@@ -7,4 +7,4 @@ categories:
   - cats
   - photography
 ---
-{% img /images/blog/cat.jpg %}
+{% img /data/images/cat.jpg %}

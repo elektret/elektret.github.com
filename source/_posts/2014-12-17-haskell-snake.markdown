@@ -9,7 +9,7 @@ categories:
   - snake
   - games
 ---
-{% img right /images/blog/snake.jpg 200 Snake %}
+{% img right /data/images/snake.jpg 200 Snake %}
 
 ### Download
     git clone https://github.com/blkdev/snake.git
