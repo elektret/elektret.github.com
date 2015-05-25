@@ -10,7 +10,7 @@ categories:
 * [Patientenaufklärung Strahlentherapie][strahlentherapie]
 * [Konzeptänderung aufgrund Referenzbeurteilung][referenzbeurteilung]
 
-[arztbrief]: /mirror/arztbrief.pdf 
-[strahlentherapie]: /mirror/strahlentherapie.pdf
-[referenzbeurteilung]: /mirror/referenzbeurteilung.pdf
+[arztbrief]: /data/mirror/arztbrief.pdf 
+[strahlentherapie]: /data/mirror/strahlentherapie.pdf
+[referenzbeurteilung]: /data/mirror/referenzbeurteilung.pdf
 

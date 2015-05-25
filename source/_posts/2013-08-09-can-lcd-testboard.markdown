@@ -23,6 +23,6 @@ Other basic devices might be connected to the same bus:
 * [CAN Debugger][testboard]
 
 [can]: http://en.wikipedia.org/wiki/CAN_bus
-[canlcd]: /mirror/canlcd.pdf
+[canlcd]: /data/mirror/canlcd.pdf
 [laborboard]: https://www.das-labor.org/wiki/Laborboard
 [testboard]: http://www.kreatives-chaos.com/artikel/can-debugger

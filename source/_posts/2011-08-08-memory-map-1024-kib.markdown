@@ -13,4 +13,4 @@ des traditionellen x86-Computers:
 
 * [Memory Map: 1024 KiB][memmap1024]
 
-[memmap1024]: /docs/memmap1024kib.pdf
+[memmap1024]: /data/docs/memmap1024kib.pdf

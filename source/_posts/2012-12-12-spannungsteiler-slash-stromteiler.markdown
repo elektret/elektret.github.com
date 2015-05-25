@@ -12,5 +12,5 @@ Schon etwas älter, aber noch nicht _reblogged_:
 * [Spannungsteiler][spannungsteiler]
 * [Stromteiler][stromteiler]
 
-[spannungsteiler]: /docs/spannungsteiler.pdf
-[stromteiler]: /docs/stromteiler.pdf
+[spannungsteiler]: /data/docs/spannungsteiler.pdf
+[stromteiler]: /data/docs/stromteiler.pdf

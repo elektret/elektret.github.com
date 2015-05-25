@@ -9,6 +9,6 @@ categories:
 ---
 <iframe
   style='width:100%;height:500px;'
-  src='/parallax/index.html'
+  src='/data/parallax/index.html'
   frameborder='0'>
 </iframe>

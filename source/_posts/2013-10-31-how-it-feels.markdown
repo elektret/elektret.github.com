@@ -15,6 +15,6 @@ and they say it's not even worse then a pneumonia, but if you don't follow
 our recommendations you will die anyway. You can't imagine how it feels.
 [Discharge letter][discharge].
 
-[surgical]: /mirror/operationsbericht.pdf
+[surgical]: /data/mirror/operationsbericht.pdf
 [rickham]: http://en.wikipedia.org/wiki/Ommaya_reservoir
-[discharge]: /mirror/arztbrief_chemo.pdf
+[discharge]: /data/mirror/arztbrief_chemo.pdf

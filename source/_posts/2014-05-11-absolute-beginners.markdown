@@ -29,6 +29,6 @@ Hoffentlich einen guten. Escape from the ivory tower.
 **Update:** Ja, ja. [Erste-Welt-Probleme][probleme].
 
 [ab]: https://de.wikipedia.org/wiki/Absolute_Beginners
-[letter]: https://elektret.github.io/mirror/arztbrief_chemo.pdf
+[letter]: https://elektret.github.io/data/mirror/arztbrief_chemo.pdf
 [udo]: http://www.tu-dortmund.de/uni/Uni/index.html
 [probleme]: https://www.youtube.com/watch?v=295gCWahBxc
