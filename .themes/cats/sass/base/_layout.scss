@@ -1,5 +1,5 @@
 html {
-  background-image: url(/images/site.png);
+  background-image: url(/style/site.png);
   background-repeat: repeat;
 }
 
@@ -30,7 +30,7 @@ body {
   }
 
   #content {
-    @extend pie-clearfix;
+    @extend pie-clearfix !optional;
 
     > header, > nav, > footer, #content > article, #content > div >
     > article, #content > div > section {
@@ -58,7 +58,7 @@ body {
     width: 250px;
     height: 192px;
     border: 2px solid #000000;
-    background-image: url(/images/very.png);
+    background-image: url(/style/very.png);
     background-repeat: no-repeat;
     background-position: center center;
   }
@@ -80,7 +80,7 @@ body {
     width: 320px;
     height: 192px;
     border: 2px solid #000000;
-    background-image: url(/images/small.png);
+    background-image: url(/style/small.png);
     background-repeat: no-repeat;
     background-position: center center;
   }
@@ -102,7 +102,7 @@ body {
     width: 417px;
     height: 192px;
     border: 2px solid #000000;
-    background-image: url(/images/medium.png);
+    background-image: url(/style/medium.png);
     background-repeat: no-repeat;
     background-position: center center;
   }
@@ -124,7 +124,7 @@ body {
     width: 668px;
     height: 192px;
     border: 2px solid #000000;
-    background-image: url(/images/big.png);
+    background-image: url(/style/big.png);
     background-repeat: no-repeat;
     background-position: center center;
   }

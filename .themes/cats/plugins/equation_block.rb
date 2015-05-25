@@ -11,7 +11,6 @@ require './plugins/raw'
 
 module Jekyll
   class EquationBlock < Liquid::Block
-     include TemplateWrapper
 
     def initialize(tag_name, markup, tokens)
       super
@@ -23,7 +22,8 @@ module Jekyll
         .gsub(/>/,'\gt')
       source = "<figure class='equation'>\\begin{equation}"
       source += "#{code.strip}\\end{equation}</figure>"
-      safe_wrap(source)
+
+      TemplateWrapper.safe_wrap(source)
     end
   end
 end
