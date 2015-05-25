@@ -16,6 +16,8 @@
 # <img class="left half" src="http://site.com/images/ninja.png" width="150" height="150" title="Ninja Attack!" alt="Ninja in attack posture">
 #
 
+require 'pathname'
+
 module Jekyll
 
   class ImageTag < Liquid::Tag
@@ -39,7 +41,10 @@ module Jekyll
 
     def render(context)
       if @img
-        "<img #{@img.collect {|k,v| "#{k}=\"#{v}\"" if v}.join(" ")}>"
+        "<img #{@img.collect do |k,v|
+          "#{k}=\"#{v}\"" if v
+        end
+        .join(" ")}>"
       else
         "Error processing input, expected syntax: {% img [class name(s)] [http[s]:/]/path/to/image [width [height]] [title text | \"title text\" [\"alt text\"]] %}"
       end
