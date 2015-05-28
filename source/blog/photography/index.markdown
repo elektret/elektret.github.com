@@ -20,3 +20,10 @@ img002.jpg
 img003.jpg
 img004.jpg
 {% endphotobook %}
+
+{% photobook pb004 Recent %}
+img001.jpg
+img002.jpg
+img003.jpg
+img004.jpg
+{% endphotobook %}
