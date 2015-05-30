@@ -6,12 +6,14 @@ comments: true
 sharing: true
 footer: true
 ---
+{% img clear center /data/images/cards.jpg Post cards %}
+
 ### Recent
 {% photobook pb003 Recent %}
-img001.jpg
+img001.jpg Description here
 img002.jpg
-img003.jpg
-img004.jpg
+img003.jpg Cats
+img004.jpg Clock on table
 {% endphotobook %}
 
 {% photobook pb000 Example %}
@@ -23,7 +25,7 @@ img004.jpg
 
 {% photobook pb004 Recent %}
 img001.jpg
-img002.jpg
-img003.jpg
+img002.jpg Butterfly 
+img003.jpg Sun
 img004.jpg
 {% endphotobook %}
