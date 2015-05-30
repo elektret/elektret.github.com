@@ -4,7 +4,9 @@ html {
 }
 
 body {
+  display: block;
   width: $max-width;
+  height: auto;
   position: relative;
   margin: auto; 
   margin-top: 10px;
