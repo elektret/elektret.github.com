@@ -6,3 +6,9 @@
   margin: 5px;
   width: 150px;
 }
+
+.clear {
+  @include shadow-box($border: none, $shadow: rgba(#000, .25) 0 0px 0px, $border-radius: 0em);
+  border: none;
+  background: none;
+}

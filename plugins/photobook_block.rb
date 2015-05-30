@@ -4,7 +4,7 @@
 #
 # Example:
 # {% photobook pb002 Greyscale %}
-#   img006.jpg
+#   img006.jpg Description here
 #   img007.jpg
 #   img008.jpg
 #   img009.jpg
@@ -19,8 +19,9 @@ module Jekyll
 
   class PhotobookBlock < Liquid::Block
     def initialize(tag_name, markup, tokens)
+      @name, @title = 'pb000', 'Untitled'
 
-      if markup =~ /(\w+)\s(\w+)/
+      if markup =~ /(\w+)\s+(\w+)/
         @name = $1
         @title = $2
         @dir = Pathname.new('source/data/photobook') + @name
@@ -34,7 +35,8 @@ module Jekyll
 
     def render(context)
       @config = context.registers[:site].config
-      @web = Pathname.new(@config['root']) + @config['data_dir'] + 'photobook' + @name
+      data_dir = !@config['data_dir'].nil? ? @config['data_dir'] : 'data'
+      @web = Pathname.new(@config['root']) + data_dir + 'photobook' + @name
 
       set = <<-BLOCK
         <section class="thumbnails">
@@ -42,6 +44,13 @@ module Jekyll
         .strip
 
       super.strip.each_line do |src|
+        if src =~ /([\w.]+)\s+(.+)/
+          src = $1
+          title = $2
+        else
+          title = 'No description'
+        end
+
         if File.file? path = @dir + '_org' + src.strip
           unless File.file? thumb = @dir + 'tmp' + src.strip
             image = MiniMagick::Image.open(path)
@@ -50,7 +59,7 @@ module Jekyll
             image.write thumb
           end
           set += <<-BLOCK
-            <img class='thumbnail' src='#{@web + 'tmp' + src.strip}' alt='#@title' />
+            <img class='thumbnail' src='#{@web + 'tmp' + src.strip}' title='#{title}' alt='#@title' />
           BLOCK
             .strip
         end

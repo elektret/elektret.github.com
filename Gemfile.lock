@@ -63,7 +63,7 @@ GEM
       rb-fsevent (>= 0.9.3)
       rb-inotify (>= 0.9)
     mercenary (0.3.5)
-    mini_magick (4.2.4)
+    mini_magick (4.2.7)
     multi_json (1.11.0)
     octopress-date-format (2.0.2)
       jekyll (~> 2.0)
@@ -111,11 +111,10 @@ PLATFORMS
 DEPENDENCIES
   RedCloth (~> 4.2.9)
   compass (~> 1.0.1)
-  execjs
   haml (~> 4.0)
   jekyll (~> 2.0)
   jekyll-sitemap
-  mini_magick
+  mini_magick (~> 4.2)
   octopress-date-format (~> 2.0)
   octopress-hooks (~> 2.2)
   rake (~> 10.0)
