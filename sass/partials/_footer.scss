@@ -1,16 +1,16 @@
 body > footer {
   @extend .sans;
-
+  background-color: $footer-bg;
   font-size: .625em;
-  color: $footer-link-color;
+  color: $footer-color;
   position: relative;
   padding-top: .5em;
-  padding-bottom: 1em;
   z-index: 1;
-  border-top: 4px solid $footer-border-top;
+
+  section { border-top: 4px solid $footer-border-top; }
 
   a {
-    @include link-colors($footer-link-color, $footer-link-color-hover, $visited: $footer-link-color);
+    @include link-colors($footer-link-color, $footer-link-color-hover, $visited: $footer-link-color-visited);
   }
 
   p:last-child { margin-bottom: 0; }
@@ -20,15 +20,10 @@ body > footer {
     margin-left: 0;
 
     li {
-      float: left;
       text-transform: uppercase;
-      margin-right: .5em
+      border-bottom: 1px solid $extra-border;
     }
 
-    li:last-child {
-      float: right;
-      text-transform: none;
-      margin-right: 0;
-    }
+    li:last-child { border-bottom: none; }
   }
 }
