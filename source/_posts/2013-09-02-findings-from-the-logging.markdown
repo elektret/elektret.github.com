@@ -13,6 +13,7 @@ I wanted to know which networks seeking for exploits on my servers most frequent
 So I wrote a [program][program] to analyze the [WHOIS][whois]
 requests—generated in case of any malicious activity—over
 the last four months. Here are the top 25 out of 633 candidates:
+
     $ ruby fail2ban.rb logfile | sort -rn | head -25
 
     231	   CN	ALIBABA-CN-NET
@@ -42,6 +43,7 @@ the last four months. Here are the top 25 out of 633 candidates:
       2	   DE	STRATO-RZG-DED3
 
 Sorted by country:
+
     $ ruby fail2ban.rb logfile | awk '{print $2}' | sort | uniq -c | sort -rn | head -15
 
      61    CN

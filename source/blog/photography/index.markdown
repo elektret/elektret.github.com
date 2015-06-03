@@ -29,3 +29,10 @@ img002.jpg Butterfly
 img003.jpg Sun
 img004.jpg
 {% endphotobook %}
+
+{% photobook pb005 May 2015 %}
+img001.jpg
+img002.jpg
+img003.jpg
+img004.jpg Bee
+{% endphotobook %}

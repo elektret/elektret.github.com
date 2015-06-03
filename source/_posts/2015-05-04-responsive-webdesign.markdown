@@ -11,7 +11,7 @@ categories:
 ---
 Maybe you have noticed there are a few changes on this site. I'm
 working on a minimalistic [octopress-theme][cats] which is basically a
-[mock-up][theme]. Main aspect is to design a responsive website which
+[mock-up][theme]. Main goal is to design a responsive website which
 works on both mobile and desktop devices. This also includes math
 equations:
 

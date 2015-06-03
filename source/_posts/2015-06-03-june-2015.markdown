@@ -1,0 +1,10 @@
+---
+layout: post
+title: "Kornblume"
+date: 2015-06-03 23:00:19 +0200
+comments: true
+categories:
+  - meta
+  - photography
+---
+{% img /data/images/bee.jpg Cornflower & Bee %}
