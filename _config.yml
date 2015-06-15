@@ -1,4 +1,4 @@
-url: http://elektret.github.io
+url: https://manuel-io.github.io
 title: A personal Blog
 subtitle: A blogging framework for hackers.
 author: Manuel
@@ -6,7 +6,7 @@ description:
 date_format: "ordinal"
 subscribe_rss: /atom.xml
 subscribe_email:
-email:
+email: m.a.n.u.e.l@posteo.de
 root: /
 permalink: /blog/:year/:month/:day/:title/
 source: source

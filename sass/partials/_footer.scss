@@ -1,4 +1,5 @@
 body > footer {
+  clear: both;
   @extend .sans;
   background-color: $footer-bg;
   font-size: .625em;

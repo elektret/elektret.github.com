@@ -7,4 +7,4 @@ categories:
   - meta
   - photography
 ---
-{% img /data/images/bee.jpg Cornflower & Bee %}
+{% img /data/images/bee.jpg Flower & Bee %}
